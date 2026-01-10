@@ -29,6 +29,8 @@ function Services() {
   ];
 
   return (
+    <>
+    {/* Services Starts Here */}
     <section className="py-16 bg-gray-50 md:px-15 px-5 mb-20">
       <div className="max-w-7xl mx-auto px-4">
 
@@ -72,6 +74,7 @@ function Services() {
 
       </div>
     </section>
+    </>
   );
 }
 

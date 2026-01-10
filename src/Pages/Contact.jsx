@@ -9,6 +9,7 @@ import Footer from "../Components/Footer";
 function Contact() {
   return (
     <>
+    {/* Contact Starts Here */}
       <section
         className="h-[400px]"
         style={{

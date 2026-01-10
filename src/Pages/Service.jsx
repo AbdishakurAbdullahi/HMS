@@ -12,6 +12,7 @@ import {
 import Footer from "../Components/Footer";
 
 function Services() {
+  
   const services = [
     {
       id: 1,
