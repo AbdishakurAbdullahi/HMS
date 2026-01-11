@@ -9,7 +9,7 @@ import Footer from "../Components/Footer";
 function Contact() {
   return (
     <>
-    {/* Contact Starts Here */}
+      {/* Contact Starts Here */}
       <section
         className="h-[400px]"
         style={{
@@ -67,33 +67,38 @@ function Contact() {
             className="rounded-xl w-full h-[500px]"
           />
 
-          <form className="bg-white h-[500px] rounded-xl shadow-lg p-8 grid md:grid-cols-2  gap-4">
+          <form className="bg-white min-h-[500px] rounded-xl shadow-lg p-8 grid grid-cols-1 md:grid-cols-2 gap-4">
             <input
-              className="border-1 outline-0 md:w-60 w-30 h-10 rounded-full pl-2"
+              className="border outline-none w-full h-10 rounded-full pl-4"
               placeholder="Full Name"
             />
+
             <input
-              className="border-1 outline-0 md:w-60 h-10 rounded-full pl-2"
+              className="border outline-none w-full h-10 rounded-full pl-4"
               placeholder="Email Address"
             />
+
             <input
-              className="border-1 outline-0 md:w-60 h-10 rounded-full pl-2"
+              className="border outline-none w-full h-10 rounded-full pl-4"
               placeholder="Phone Number"
             />
+
             <input
-              className="border-1 outline-0 md:w-60 h-10 rounded-full pl-2"
+              className="border outline-none w-full h-10 rounded-full pl-4"
               placeholder="Subject"
             />
+
             <input
-              className="border-1 outline-0 md:w-124 h-10 rounded-full pl-2"
+              className="border outline-none w-full h-10 rounded-full pl-4 md:col-span-2"
               placeholder="Service"
             />
-            <textarea
-              className="input col-span-2 h-20 border-1 py-5 px-2 outline-0"
-              placeholder="Message"
-            ></textarea>
 
-            <button className="col-span-2 bg-blue-600 text-white py-3 rounded-full hover:bg-blue-700 transition">
+            <textarea
+              className="border outline-none w-full h-24 rounded-xl px-4 py-3 md:col-span-2"
+              placeholder="Message"
+            />
+
+            <button className="md:col-span-2 bg-blue-600 text-white py-3 rounded-full hover:bg-blue-700 transition w-full">
               Submit Now
             </button>
           </form>

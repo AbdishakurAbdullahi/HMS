@@ -43,8 +43,8 @@ const Header = () => {
         </ul>
       
        <div className='flex flex-col gap-5 items-center'>
-        <button className='text-xl font-bold cursor-pointer'><Link to='/signin'>Sign In</Link></button>
-        <button className='px-8 cursor-pointer py-2 rounded-lg text-white text-lg bg-[rgb(69,137,244)]'><Link to='/appointmentsForm'>Book Appointment</Link></button>
+        <button  onClick={() => setopenMenu(false)}  className='text-xl font-bold cursor-pointer'><Link to='/signin'>Sign In</Link></button>
+        <button  onClick={() => setopenMenu(false)}  className='px-8 cursor-pointer py-2 rounded-lg text-white text-lg bg-[rgb(69,137,244)]'><Link to='/appointmentsForm'>Book Appointment</Link></button>
         </div>
         </nav>
 
