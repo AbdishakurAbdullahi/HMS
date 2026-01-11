@@ -1,40 +1,49 @@
 import React from "react";
 import Footer from "../Components/Footer.jsx";
 import Team from "../Components/Team.jsx";
-import News from '../Components/News.jsx'
+import News from "../Components/News.jsx";
 // import AboutImage from "../assets/about-img1.jpg";
 // import AboutImage2 from "../assets/about_img2.jpg";
 
 function About() {
   return (
     <>
-      {/* About Us */}
+      {/* About Us Starts Here*/}
       <section
         className="h-[400px]"
-style={{
-  backgroundImage: `
+        style={{
+          backgroundImage: `
     linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
     url('https://i.pinimg.com/1200x/ea/ef/ba/eaefba0eef55eaa8e6e71c6bf25eef1a.jpg')
   `,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-}}
-      > 
-
-            <h1 className="text-4xl text-white md:px-15 px-5 pt-40 md:text-5xl font-bold">About Us</h1>
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 className="text-4xl text-white md:px-15 px-5 pt-40 md:text-5xl font-bold">
+          About Us
+        </h1>
       </section>
 
       <section class="max-w-7xl mx-auto px-6 py-20">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="relative">
-            <img src='https://html.narzotech.com/madifax/images/about-img1.jpg' class="rounded-xl w-full" alt="surgery" />
+            <img
+              src="https://html.narzotech.com/madifax/images/about-img1.jpg"
+              class="rounded-xl w-full"
+              alt="surgery"
+            />
 
             <div class="absolute -bottom-10 left-10 bg-white rounded-xl shadow-lg p-2">
               <div class="relative">
-                <img src='https://html.narzotech.com/madifax/images/about_img2.jpg' class="rounded-lg w-64" alt="doctor" />
+                <img
+                  src="https://html.narzotech.com/madifax/images/about_img2.jpg"
+                  class="rounded-lg w-64"
+                  alt="doctor"
+                />
               </div>
             </div>
           </div>
