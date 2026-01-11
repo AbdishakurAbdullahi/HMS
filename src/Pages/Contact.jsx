@@ -48,7 +48,7 @@ function Contact() {
           <InfoCard
             icon={<FaEnvelope />}
             title="Email Address"
-            text="example@gmail.com\njunayedallinone@gmail.com"
+            text="junayedallinone@gmail.com"
             color="bg-yellow-500"
           />
           <InfoCard
@@ -64,7 +64,7 @@ function Contact() {
           <img
             src="https://html.narzotech.com/madifax/images/contact_img.jpg"
             alt="team"
-            className="rounded-xl w-full h-[500px]"
+            className="rounded-xl w-full md:h-[500px] h-[400px]"
           />
 
           <form className="bg-white min-h-[500px] rounded-xl shadow-lg p-8 grid grid-cols-1 md:grid-cols-2 gap-4">
